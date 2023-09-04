@@ -1,0 +1,16 @@
+h1, h2 {
+    text-align: center;
+}
+
+h2{
+    margin-top: 5em;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 20%;
+}
