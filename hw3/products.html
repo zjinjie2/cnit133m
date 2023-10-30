@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Products</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+      <div class="container">
+        <nav class="nav mt-2">
+      <ul class="nav nav-pills nav-fill mt-2 fixed-top">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="products.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="location.html">Location</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="extra.html">Extra</a>
+        </li>
+      </ul>
+      </nav>
+      
+      <div class="jumbotron mt-5">
+        <h1>ABC Toys</h1>
+        <h3>Making learning fun</h3>
+      </div>
+
+      <h2>Products</h2>
+      <div class="accordion" id="accordionGroup">
+        <div class="card">
+          <div class="card-header" id="heading1">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link"
+                type="button"
+                data-toggle="collapse"
+                data-target="#content1"
+                aria-expanded="true"
+                aria-controls="content1"
+              >
+              Miniature car
+              </button>
+            </h2>
+          </div>
+
+          <div
+            id="content1"
+            class="collapse show"
+            aria-labelledby="heading1"
+            data-parent="#accordionGroup"
+          >
+            <div class="card-body">
+                <img src="images/car.jpg" alt="toy small white car " class="img-fluid w-50">
+            <p>
+                Zoom around with this sleek and speedy toy car, designed for endless hours of racing fun.
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="heading2">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#content2"
+                aria-expanded="false"
+                aria-controls="content2"
+              >
+              Rubik's cube
+              </button>
+            </h2>
+          </div>
+          <div
+            id="content2"
+            class="collapse"
+            aria-labelledby="heading2"
+            data-parent="#accordionGroup"
+          >
+            <div class="card-body">
+             <img src="images/rubik.jpg" alt="rubik's cube toy" class="img-fluid w-50">
+             <p>
+                Engage in a world of vibrant colors and geometric precision as you twist and turn your way to solving the Rubik's Cube.
+             </p>
+          </div>
+          </div>
+        <div class="card">
+          <div class="card-header" id="heading3">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#content3"
+                aria-expanded="false"
+                aria-controls="content3"
+              >
+              Rubber duck
+              </button>
+            </h2>
+          </div>
+          <div
+            id="content3"
+            class="collapse"
+            aria-labelledby="heading3"
+            data-parent="#accordionGroup"
+          >
+            <div class="card-body">
+             <img src="images/duck.jpg" alt="yellow rubber duck" class="img-fluid w-50">
+             <p>
+                Brighten up your bath with the sunny charm of a rubber duck, the perfect addition to any water-based play.
+             </p>
+            </div>
+          </div>
+        </div>
+      
+    </div>
+  </body>
+</html>
