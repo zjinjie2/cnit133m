@@ -1,10 +1,27 @@
 body {
    margin: 0 auto;
-   max-width: 100vh;
+   max-width: 90vh;
+}
+
+h1 {
+   text-align: center;
+}
+
+hr {
+   margin-top: 29px;
+}
+
+input {
+   margin-top: 20px;
 }
 
 @media only screen and (max-width: 830px) {
    body {
-     margin: 0 15px;
+      margin: 0 25px;
+   }
+   
+   h1 {
+      text-align: left; 
+
    }
 }
