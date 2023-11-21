@@ -1,11 +1,11 @@
 var CACHE_VERSION = 'myapp-v1';
 var CACHE_FILES = [
-    'hw4/images/Icon-196.png',
-    'hw4/images/Icon-512.png',
-    'hw4/images/lightblue.jpg',
-    'hw4/images/lightgold.jpg',
-    'hw4/app.js',
-    'hw4/styles.css'
+    'images/Icon-196.png',
+    'images/Icon-512.png',
+    'images/lightblue.jpg',
+    'images/lightgold.jpg',
+    'app.js',
+    'styles.css'
 ];
 
 self.addEventListener('install', event => {
