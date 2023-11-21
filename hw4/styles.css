@@ -1,0 +1,10 @@
+body {
+   margin: 0 auto;
+   max-width: 100vh;
+}
+
+@media only screen and (max-width: 830px) {
+   body {
+     margin: 0 15px;
+   }
+}
