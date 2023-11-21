@@ -1,52 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework 4</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
     <script src="script.js"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <h1>Characteristic of PWAs</h1>
     <p>
-      Progressive Web Apps (PWAs) are web applications that leverage modern web technologies to
-      provide a reliable, fast, and engaging user experience. <br />Here are some key
-      characteristics of PWAs:
+        Progressive Web Apps (PWAs) are web applications that leverage modern web technologies to
+        provide a reliable, fast, and engaging user experience. <br>Here are some key
+        characteristics of PWAs:
     </p>
     <ul>
-      <li>
-        Works Everywhere: A Progressive Web App (PWA) is like a website that works on any device,
-        whether it's a computer, tablet, or phone.
-      </li>
-      <li>
-        Fits Your Screen: It looks good and is easy to use no matter how big or small your device's
-        screen is.
-      </li>
-      <li>
-        Works Offline: Even if your internet is slow or not working, a PWA can still show you some
-        stuff you've seen before.
-      </li>
-      <li>
-        Feels Like an App: It acts like an app you'd download, with smooth movements and cool
-        features.
-      </li>
-      <li>Updates Itself: It can make itself better without you having to do anything.</li>
+        <li>
+            Works Everywhere: A Progressive Web App (PWA) is like a website that works on any device,
+            whether it's a computer, tablet, or phone.
+        </li>
+        <li>
+            Fits Your Screen: It looks good and is easy to use no matter how big or small your device's
+            screen is.
+        </li>
+        <li>
+            Works Offline: Even if your internet is slow or not working, a PWA can still show you some
+            stuff you've seen before.
+        </li>
+        <li>
+            Feels Like an App: It acts like an app you'd download, with smooth movements and cool
+            features.
+        </li>
+        <li>Updates Itself: It can make itself better without you having to do anything.</li>
     </ul>
-    <hr />
+    <hr>
     <h3>Select a background image</h3>
     <select name="bg-images" id="bg-images" onchange="changeBG(this.value)">
-      <option value="">---</option>
-      <option value="images/lightblue.jpg">Light blue</option>
-      <option value="images/lightgold.jpg">light gold</option>
+        <option value="">---</option>
+        <option value="images/lightblue.jpg">Light blue</option>
+        <option value="images/lightgold.jpg">light gold</option>
     </select>
-    <hr />
+    <hr>
 
     <label for="userName">Name: </label>
-    <input type="text" name="userName" id="userName" oninput="saveInput()" />
+    <input type="text" name="userName" id="userName" oninput="saveInput()">
 
     <p>Hi <span id="displayMessage"></span>, welcome back!</p>
-  </body>
-  <script src="app.js"></script>
+</body>
+<script src="app.js"></script>
+
 </html>
