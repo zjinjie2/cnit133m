@@ -1,0 +1,52 @@
+body {
+    background-color: rgba(189, 189, 189, 0.586);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(119, 200, 137);
+    padding: 30px 0;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+section {
+    display: grid;
+    grid-template-columns: .5fr 2fr;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section:nth-child(odd) {
+    background-color: rgb(189, 189, 189);
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 70px 0 20px 0;
+}
+
+@media only screen and (max-width: 825px) {
+
+
+    h1 {
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    section {
+        display: block;
+    }
+}
